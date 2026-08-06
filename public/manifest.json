@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "LinkVault",
+  "description": "A smart bookmark manager — save URLs with notes, organize into color-coded collections, search, pin, and export.",
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Open LinkVault"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "tabs"
+  ],
+  "icons": {
+    "16": "icon-16.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  },
+  "commands": {
+    "quick-save": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+S",
+        "mac": "Command+Shift+S"
+      },
+      "description": "Quick-save current page to LinkVault"
+    }
+  }
+}

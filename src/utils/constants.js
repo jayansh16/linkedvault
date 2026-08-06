@@ -1,0 +1,30 @@
+export const COLLECTION_COLORS = [
+  { name: "Violet", value: "#7C3AED" },
+  { name: "Indigo", value: "#4F46E5" },
+  { name: "Blue", value: "#2563EB" },
+  { name: "Cyan", value: "#0891B2" },
+  { name: "Emerald", value: "#059669" },
+  { name: "Amber", value: "#D97706" },
+  { name: "Rose", value: "#E11D48" },
+  { name: "Pink", value: "#DB2777" },
+  { name: "Slate", value: "#475569" },
+];
+
+export const COLLECTION_ICONS = [
+  "📁",
+  "💻",
+  "🎨",
+  "📚",
+  "🚀",
+  "🧰",
+  "📝",
+  "🎬",
+  "🎵",
+  "🛒",
+  "🏠",
+  "💡",
+  "🔖",
+  "⭐",
+  "🧪",
+  "🔧",
+];
